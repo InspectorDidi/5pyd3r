@@ -11,7 +11,7 @@ def main():
     global linkstotal
     global Host
 
-    a = input('enter mode: listpage, scrapepage, listhost, scrapehost, quit\n').rstrip()
+    a = input('enter mode: listpage, scrapepage, quit\n').rstrip()
     if a == 'quit':
         quit()
     if a == 'listpage':
